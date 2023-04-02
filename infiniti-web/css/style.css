@@ -1,0 +1,24 @@
+:root {
+  --font-family-inter: "Inter";
+  --font-family-avenir: "Avenir";
+  --main-bg-color: #fff;
+  --secondary-bg-color: #21445b;
+  --color-balck: #000;
+  --header-bg-color: linear-gradient(110.2deg, #21445b 6.01%, #00737e 60.62%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+}
+
+.mainContainer {
+  position: relative;
+  width: 100%;
+}

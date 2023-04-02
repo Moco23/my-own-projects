@@ -1,0 +1,86 @@
+@import url(/css/style.css);
+
+.mainHeader {
+  background: var(--header-bg-color);
+  width: 100%;
+  height: 82rem;
+  text-align: center;
+}
+
+/* main nav */
+.mainNav {
+  display: flex;
+  gap: 20rem;
+  text-align: center;
+  justify-content: center;
+
+  margin-bottom: 15rem;
+}
+
+/* logo */
+.logoImg {
+  width: 18.63rem;
+  height: 13rem;
+}
+
+/* navigation */
+
+.navigation ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.navigation ul li a {
+  color: var(--main-bg-color);
+  font-family: var(--font-family-avenir);
+  font-weight: 800;
+  font-size: 2.2rem;
+  text-decoration: none;
+}
+
+.navBtn {
+  margin-top: 2rem;
+}
+
+.navBtn a {
+  background: var(--main-bg-color);
+  color: var(--color-balck);
+  text-decoration: none;
+  font-family: var(--font-family-inter);
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 0.2rem 0.4rem;
+}
+
+/* main heading */
+.mainHeading h1 {
+  font-family: var(--font-family-inter);
+  color: var(--main-bg-color);
+  font-weight: 800;
+  font-size: 7.2rem;
+  text-align: center;
+}
+
+.mainHeading p {
+  font-family: var(--font-family-inter);
+  color: var(--main-bg-color);
+  font-weight: 500;
+  font-size: 5.2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.mainHeading a {
+  font-family: var(--font-family-avenir);
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--main-bg-color);
+  text-decoration: none;
+
+  background-color: #00a75d;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--main-bg-color);
+}
