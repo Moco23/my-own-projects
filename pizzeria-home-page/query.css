@@ -1,0 +1,10 @@
+@media screen and (max-widht: 1500px) {
+  .falexContainer {
+    display: flex;
+  }
+
+  .aboutPizzeria {
+    position: absolute;
+    right: 13rem;
+  }
+}
