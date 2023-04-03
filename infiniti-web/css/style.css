@@ -4,6 +4,7 @@
   --main-bg-color: #fff;
   --secondary-bg-color: #21445b;
   --color-balck: #000;
+  --main-heading-color: #00737e;
   --header-bg-color: linear-gradient(110.2deg, #21445b 6.01%, #00737e 60.62%);
 }
 
@@ -21,4 +22,8 @@ html {
 .mainContainer {
   position: relative;
   width: 100%;
+}
+
+.centerContainer {
+  margin: 0 auto;
 }
