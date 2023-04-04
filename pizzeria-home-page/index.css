@@ -139,3 +139,13 @@ html {
 .sideBar .callUs {
   margin-top: -4rem;
 }
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0.1rem;
+  left: 30rem;
+  text-align: center;
+  color: #ff922b;
+  font-size: 1.7rem;
+}
