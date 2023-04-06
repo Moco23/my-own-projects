@@ -1,0 +1,180 @@
+@import url(/css/style.css);
+
+.asideSection {
+  margin-bottom: 15rem;
+}
+
+.diferencia {
+  width: 120.6rem;
+  height: auto;
+  position: relative;
+}
+
+.diferencia h2 {
+  font-family: var(--font-family-avenir);
+  font-weight: 800;
+  font-size: 5rem;
+  color: var(--main-heading-color);
+  margin-bottom: 5rem;
+}
+
+/* card box */
+.diferencia__cardBox {
+  display: flex;
+  gap: 9rem;
+}
+
+.diferencia__cardBox_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background: var(--main-heading-color);
+  box-shadow: 0 0 10rem rgba(0, 0, 0, 0.07);
+  border-radius: 6rem;
+
+  width: 31.9rem;
+  height: 29.2rem;
+}
+
+.diferencia__cardBox_icon {
+  width: 6.97rem;
+  height: 6.565rem;
+}
+
+.diferencia__cardBox h2 {
+  color: var(--main-bg-color);
+
+  font-family: var(--main-heading-color);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 100%;
+  text-align: center;
+
+  letter-spacing: -0.03rem;
+}
+
+/* empty */
+/* card 1 */
+.diferencia__cardBoxCard__emptyObject1 {
+  position: absolute;
+  top: 17rem;
+  left: 7rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject2 {
+  position: absolute;
+  top: 35rem;
+  left: 7rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject3 {
+  position: absolute;
+  top: 35rem;
+  left: 24rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject4 {
+  position: absolute;
+  top: 17rem;
+  left: 24rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+/* card 2 */
+.diferencia__cardBoxCard__emptyObject5 {
+  position: absolute;
+  top: 17rem;
+  left: 46rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject6 {
+  position: absolute;
+  top: 35rem;
+  left: 46rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject7 {
+  position: absolute;
+  top: 35rem;
+  left: 65rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject8 {
+  position: absolute;
+  top: 17rem;
+  left: 65rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+/* card 3 */
+.diferencia__cardBoxCard__emptyObject9 {
+  position: absolute;
+  top: 17rem;
+  left: 87rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject10 {
+  position: absolute;
+  top: 35rem;
+  left: 87rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject11 {
+  position: absolute;
+  top: 35rem;
+  left: 107rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}
+
+.diferencia__cardBoxCard__emptyObject12 {
+  position: absolute;
+  top: 17rem;
+  left: 107rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+}

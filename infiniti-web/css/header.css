@@ -27,7 +27,7 @@
 
 .navigation ul {
   display: flex;
-  gap: 18.5rem;
+  gap: 15rem;
   list-style: none;
   margin-top: 2rem;
 }
