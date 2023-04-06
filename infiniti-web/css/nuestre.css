@@ -1,0 +1,52 @@
+@import url(/css/style.css);
+
+.diferencia {
+  margin-bottom: 20rem;
+}
+
+.nuestreMdnSection {
+  width: 120.3rem;
+  height: auto;
+}
+
+.nuestreMdnSectionHeading {
+  width: 100%;
+  text-align: end;
+
+  font-family: var(--font-family-avenir);
+  color: var(--main-heading-color);
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 8rem;
+}
+
+.nuestreMdnSectionContetn {
+  display: flex;
+  gap: 2rem;
+}
+
+.nuestreMdnSectionContetn_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-right: 7rem;
+}
+
+.nuestreMdnSectionContetn_text p {
+  font-family: var(--font-family-avenir);
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  opacity: 0.8;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: var(--secondary-bg-color);
+}
+
+.nuestreMdnSectionContetn_text img {
+  width: 50.5rem;
+  height: 48rem;
+}
