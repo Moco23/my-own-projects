@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.8),
+      rgba(255, 165, 0, 0.4)
+    ),
+    url(/css/main-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_header {
+  width: 100%;
+  height: auto;
+  background-color: #481b1b;
+  color: #ffd700;
+}
+
+.eConversion {
+  width: 100%;
+  height: auto;
+  background-color: #481b1b;
+  color: #ffd700;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.barNameInof {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.cb {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.barName {
+  font-size: 5rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.obrInfo {
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.tableHolder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  padding: 2rem;
+}
+
+.thead {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #8a1c1c;
+}
+
+.tbody {
+  font-size: 1.8rem;
+}
+
+.drinksName {
+  color: #8a1c1c;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 640px) {
+  .cb {
+    font-size: 1.8rem;
+    font-style: italic;
+  }
+
+  .barName {
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .obrInfo {
+    font-size: 1.2rem;
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cb {
+    font-size: 1.8rem;
+    font-style: italic;
+  }
+
+  .barName {
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .obrInfo {
+    font-size: 1rem;
+    text-align: end;
+  }
+}
