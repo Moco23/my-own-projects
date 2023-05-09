@@ -1,0 +1,34 @@
+.heroSection {
+  height: 92rem;
+  margin-bottom: 2rem;
+}
+
+.developerDescrption {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.contactMe_btn {
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+  font-size: 3.2rem;
+  background: rgb(69, 165, 4);
+  padding: 0.5rem 1rem;
+  transition: 0.5s;
+}
+
+.contactMe_btn:hover {
+  background: transparent;
+  color: rgb(69, 165, 4);
+  border: 0.1rem solid rgba(69, 165, 4);
+}
+
+.profileImg {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+  border: 0.1rem solid rgba(69, 165, 4);
+  transition: 0.5s;
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> ƒ
 <html lang="en">
   <head>
     <meta
@@ -26,12 +26,14 @@
     />
 
     <!-- my css -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/querys.css" />
     <title>Apartmani Danijel Premantura</title>
   </head>
   <body>
+    <!-- main navigation -->
     <nav
-      class="navbar navbar-expand-lg navbar-inverse navbar-static-top bg-dark-subtle mb-5"
+      class="navbar navbar-expand-lg navbar-inverse navbar-static-top bg-dark col-lg-12 col-md-12 col-sm"
     >
       <div class="container">
         <button
@@ -46,188 +48,341 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse d-flex justify-content-center align-items-center link-dark text-uppercase"
+          class="collapse navbar-collapse d-flex justify-content-center align-items-center text-uppercase"
           id="navbarNav"
         >
-          <ul class="navbar-nav">
+          <ul class="navbar-nav gap-5">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="link-secondary text-decoration-none active fs-4"
+                aria-current="page"
+                href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#apartmans">Apartmans</a>
+              <a
+                class="link-secondary text-decoration-none fs-4"
+                href="#apartmans"
+                >Apartmans</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link">About Us</a>
+              <a
+                href="#aboutUs"
+                class="link-secondary text-decoration-none fs-4"
+                >About Us</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactUs">Contact Us</a>
+              <a
+                class="link-secondary text-decoration-none fs-4"
+                href="#contactUs"
+                >Contact Us</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container d-flex mb-5 aboutSection">
-      <div class="map">
-        <a href="#"
-          ><iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45306.25159659133!2d13.878439417736653!3d44.78812939396276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47632bc9960f6cad%3A0x398eeeae814dda8f!2sPremantura!5e0!3m2!1shr!2shr!4v1681913525734!5m2!1shr!2shr"
-            class="mapAddress"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe
-        ></a>
+    <!-- hero section -->
+    <section class="hero p-5">
+      <div class="row">
+        <div class="col-md text-center p-5">
+          <h1 class="mainHeading">Apartmani danijel</h1>
+        </div>
       </div>
-      <div class="textBox text-center bg-secondary-subtle p-5">
-        <h2>About Premantura</h2>
-        <p class="text-start">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
-          voluptates consectetur dicta dolorum reprehenderit eos sunt eaque hic
-          sed doloribus amet ab reiciendis, soluta necessitatibus ipsam eum
-          debitis obcaecati minus assumenda, itaque totam, harum enim libero!
-          Atque labore nobis nemo mollitia aspernatur repudiandae porro
-          laboriosam. Culpa, recusandae a eligendi explicabo totam incidunt
-          magnam corporis voluptas rerum hic sed ab veritatis maiores, dolore
-          nobis sapiente perspiciatis alias nihil ducimus sit facere et eveniet
-          nesciunt ipsam. Voluptates sint ratione doloribus ipsum nobis.
-          Perspiciatis sit, placeat autem in aut praesentium nostrum voluptas,
-          sequi numquam aspernatur a ea porro, possimus velit sed rerum
-          molestiae?
-        </p>
-        <button class="btn btn-danger">
-          <a href="#" class="link text-decoration-none text-white">Read more</a>
-        </button>
-      </div>
-    </div>
-
-    <section id="apartmans" class="apartmaniDanijel text-center mb-5">
-      <h1 class="text-uppercase fst-italic mb-5">Apartmani Danijel</h1>
-
-      <div
-        class="cardsApartman d-flex gap-5 justify-content-center align-items-center"
-      >
-        <div class="card" style="width: 18rem">
-          <img
-            src="css/apartman.jpg"
-            class="card-img-top"
-            alt="Apartman picture on the screen"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Apartman 1</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+      <div class="container">
+        <div class="row">
+          <div class="col-md text-center p-5">
+            <h2 class="secondaryHeading" id="aboutUs">About Us</h2>
+            <p class="mainP mb-5">
+              Apartmani Danijel anlaze se u Premanturi u blizini plaze, svega
+              10km od centra Grada Pule. Apartmani se nalaze na loaciji koja je
+              u blizini sadrzaja za sve uzraste.
             </p>
-            <a href="#" class="btn btn-primary">Rent</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="css/apartman.jpg"
-            class="card-img-top"
-            alt="Apartman pictures on the screen"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Apartman 2</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Rent</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="css/apartman.jpg"
-            class="card-img-top"
-            alt="Apartman pictures on the screen"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Rent</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contactUs" class="contactform bg-dark-subtle">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Phon Number</label
-        >
-        <input
-          type="number"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="+/your phone number"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Example textarea</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-        <div class="d-flex justify-content-center align-items-center p-3">
-          <button class="btn btn-primary">Submit</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="aboutUs">
-      <h2
-        class="text-danger text-center text-uppercase fst-italic fw-bold mb-3"
-      >
-        About us
-      </h2>
-      <div class="container mb-5">
-        <div class="aboutContent d-flex gap-3">
-          <p class="w-50">
-            Apartmani Danijel nalaze se na idealnoj lokaciji kako sa mlade, tako
-            i za starrije. Sadrzaja sigurno nede nedostajati. Nalazioo se u
-            Premanturi, svega 10km od centra Grada Pule. Partmani su u blizini
-            plaze, kafica, restorana, zabavnog sadrzaja (tranpolini i slicno...)
-          </p>
-          <div class="w-50 text-center iconsAbout">
-            <h3>U sklopu apartmana</h3>
-            <div
-              class="aboutIconFlex d-flex gap-3 justify-content-center align-items-center"
+            <a class="btn btn-info rateBtn" href="#rate"
+              >Rate our accommodation</a
             >
-              <i class="bi bi-p-circle display-1"></i>
-              <i class="bi bi-wifi display-1"></i>
-              <i class="bi bi-tv display-1"></i>
+          </div>
+          <div class="col-xl-6 col-lg-12 col-md- col-sm-12 text-center p-5">
+            <h2 class="secondaryHeading">In accommodation price</h2>
+            <i class="bi bi-p-circle-fill apartAvelibleItem"></i>
+            <i class="bi bi-wifi apartAvelibleItem"></i>
+            <i class="bi bi-tv-fill apartAvelibleItem"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- article section apartmans -->
+    <article class="apartmans p-5 text-center">
+      <h2 class="secondaryHeading mb-5">Rent our apartmans</h2>
+
+      <div class="container justify-content-center align-items-center gap-5">
+        <div class="row">
+          <!-- card 1 -->
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="css/apartman.jpg"
+                class="card-img-top"
+                alt="Front of apartman on screen"
+              />
+              <div class="card-body">
+                <h5 class="card-title heading3">Apartman 1</h5>
+                <p class="card-text secondaryP">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Check Avelible Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="css/apartman.jpg"
+                class="card-img-top"
+                alt="Front of apartman on screen"
+              />
+              <div class="card-body">
+                <h5 class="card-title heading3">Apartman 2</h5>
+                <p class="card-text secondaryP">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Check Avelible Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="css/apartman.jpg"
+                class="card-img-top"
+                alt="Front of apartman on screen"
+              />
+              <div class="card-body">
+                <h5 class="card-title heading3">Apartman 3</h5>
+                <p class="card-text secondaryP">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Check Avelible Now</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </article>
+
+    <!-- ablut premantura section -->
+    <section class="aboutpremantura p-5">
+      <h2 class="secondaryHeading text-center">About Premantura</h2>
+      <div class="row">
+        <div class="col-md-4 text-start p-5">
+          <h2 class="secondaryHeading">Short story of Premantura</h2>
+          <p class="p4">
+            Premantura, rimski Runtianum, je najjužnije mjesto na istarskom
+            poluotoku, udaljeno od Pule oko 10 km. Popis stanovništva 2001.
+            godine kaže da Premantura ima 845 stanovnika i to 402 muške i 443
+            ženske osobe. Starosjedioci Premanture su dalmatinskog porijekla
+            koji su se tu naselili bježeći pred najezdama Turaka u Dalmaciji u
+            14. i 15. stoljeću. Mjesto je nastalo na ruševinama starog
+            ilirsko-rimskog naselja, a spominje se već oko 1300. godine. U
+            okolini su nađeni ostaci rimskih vila rustica i statua Minerve koja
+            je danas u pulskom Arheološkom muzeju.
+          </p>
+        </div>
+        <div class="col-md-4 p-5">
+          <a href="#"
+            ><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45306.24998344405!2d13.884619341408099!3d44.7881314491455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47632bc9960f6cad%3A0x398eeeae814dda8f!2sPremantura!5e0!3m2!1shr!2shr!4v1681928998392!5m2!1shr!2shr"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              width="100%"
+              height="100%"
+            ></iframe
+          ></a>
+        </div>
+        <div class="col-md-4 text-end p-5">
+          <h2 class="secondaryHeading">In premantura you have</h2>
+          <div class="premanturaResurs">
+            <i class="fa-solid fa-mug-saucer apartAvelibleItem"></i>
+            <i class="fa-solid fa-martini-glass-citrus apartAvelibleItem"></i>
+            <i class="fa-solid fa-utensils apartAvelibleItem"></i>
+            <i class="fa-solid fa-volleyball apartAvelibleItem"></i>
+            <i class="fa-solid fa-umbrella-beach apartAvelibleItem"></i>
+            <i class="fa-solid fa-bus apartAvelibleItem"></i>
+          </div>
+          <p class="mainP text-end">
+            With bus you will be in center <br />
+            of Pula city about 15 min
+          </p>
+        </div>
+      </div>
     </section>
 
-    <footer class="text-center bg-secondary-subtle text-dark">
-      <p>&copy; Momcilo Nikolic 2023.</p>
+    <!-- section rate us -->
+    <section class="rateUs">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-6 text-center p-5" id="contactUs">
+            <div class="sMedia">
+              <h2 class="secondaryHeading">
+                You can find us and conntact us on Social Media also
+              </h2>
+              <a href="#">
+                <i class="fa-brands fa-facebook apartAvelibleItem"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-square-instagram apartAvelibleItem"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-square-whatsapp apartAvelibleItem"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-envelope apartAvelibleItem"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- form -->
+          <div class="col-md-6 text-center p-5">
+            <h2 class="secondaryHeading">
+              Please Rate us and live your comment
+            </h2>
+            <form action="true" class="form p-5 text-start" id="rate">
+              <div class="findAndRate">
+                <div class="formSelector d-flex gap-5 mb-5">
+                  <label for="findUs">Hwere are you find us?</label>
+                  <select class="gryBgColor" name="findUs" id="findUs">
+                    <option value="Select">Select</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Agenci">Agenci</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                <div class="rateOptios d-flex gap-5 mb-5">
+                  <p>Please give us rate.</p>
+                  <div class="rateStars d-flex gap-5 mb-5">
+                    <div class="start">
+                      <label for="1">1</label><br />
+                      <input
+                        type="radio"
+                        id="1"
+                        name="fav_language"
+                        value="1"
+                      />
+                    </div>
+                    <div class="star">
+                      <label for="2">2</label><br />
+                      <input
+                        type="radio"
+                        id="2"
+                        name="fav_language"
+                        value="2"
+                      />
+                    </div>
+                    <div class="star">
+                      <label for="3">3</label><br />
+                      <input
+                        type="radio"
+                        id="3"
+                        name="fav_language"
+                        value="3"
+                      />
+                    </div>
+                    <div class="star">
+                      <label for="4">4</label><br />
+                      <input
+                        type="radio"
+                        id="4"
+                        name="fav_language"
+                        value="4"
+                      />
+                    </div>
+                    <div class="star">
+                      <label for="5">5</label><br />
+                      <input
+                        type="radio"
+                        id="5"
+                        name="fav_language"
+                        value="5"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="full mb-5">
+                  <div class="suerInfoPlaceholders">
+                    <label for="fname">First name:</label><br />
+                    <input
+                      class="fomrInput"
+                      type="text"
+                      id="fname"
+                      name="fname"
+                    /><br />
+                  </div>
+                  <div class="suerInfoPlaceholders">
+                    <label for="lname">Last name:</label><br />
+                    <input
+                      class="fomrInput"
+                      type="text"
+                      id="lname"
+                      name="lname"
+                    />
+                  </div>
+                  <div class="suerInfoPlaceholders">
+                    <label for="email">Email Address</label><br />
+                    <input
+                      class="fomrInput"
+                      type="email"
+                      id="email"
+                      name="email"
+                    />
+                  </div>
+                </div>
+                <div class="userComm">
+                  <label for="comm">let us your comment</label>
+                  <input
+                    class="fomrInput"
+                    rows="10"
+                    cols="100"
+                    type="text"
+                    id="comm"
+                    name="comm"
+                    placeholder="Comment"
+                  />
+                </div>
+              </div>
+              <div class="btnBox text-center">
+                <a href="#" class="btn btn-danger submitBtn m-5 text-center"
+                  >Submit</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+      <div class="row">
+        <div class="col-md-12 text-center p-5">
+          <p class="p3">&copf; Momcilo Nikolic 2023</p>
+        </div>
+      </div>
     </footer>
     <!-- boostrap js scripts -->
     <script
@@ -238,6 +393,11 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font 8 script -->
+    <script
+      src="https://kit.fontawesome.com/cfc1a850ba.js"
       crossorigin="anonymous"
     ></script>
   </body>

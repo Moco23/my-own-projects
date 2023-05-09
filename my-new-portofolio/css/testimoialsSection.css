@@ -1,0 +1,19 @@
+.testimonialsSection {
+  height: auto;
+  margin-bottom: 10rem;
+}
+
+.testimonialsSection_profile_imgs {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 0.1rem solid rgb(69, 165, 4);
+}
+
+.recomendationOfPoople {
+  font-size: 1.8rem;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+}

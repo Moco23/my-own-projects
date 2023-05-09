@@ -1,0 +1,66 @@
+/* import css */
+@import url(header.css);
+@import url(heroSection.css);
+@import url(myProjectSection.css);
+@import url(testimoialsSection.css);
+@import url(technologiSection.css);
+@import url(pricingSection.css);
+@import url(footer.css);
+@import url(mediaQuery.css);
+/* import css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/css/imgs/pf_bg_main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.mainBg_color {
+  background: #2b2f32;
+}
+
+.mainText_color {
+  color: #767676;
+}
+
+.secondaryText_color {
+  color: rgb(69, 165, 4);
+}
+
+.mainHeading {
+  color: rgb(69, 165, 4);
+  font-size: 7rem;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.secondaryHeading {
+  color: rgba(69, 165, 4);
+  font-family: "Roboto";
+  font-size: 3.2rem;
+  font-weight: 700;
+}

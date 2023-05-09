@@ -1,0 +1,45 @@
+/* imports css */
+@import url(header.css);
+@import url(hero.css);
+
+/* root */
+:root {
+  --main-bg-color: #1b1a17;
+  --secondary-bg-color: #1f1e1b;
+  --main-text-color: #ff8303;
+  --secondary-text-color: #f0e3ca;
+  --font-family-Inconsolata: "Inconsolata";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--main-bg-color);
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.mainHeading,
+.secondaryHeadinfg {
+  font-family: var(--font-family-Inconsolata);
+}
+
+.mainHeading {
+  color: var(--main-text-color);
+  font-weight: 900;
+  font-size: 6.4rem;
+}
+
+.secondaryHeadinfg {
+  color: var(--secondary-text-color);
+  font-size: 4rem;
+  font-weight: 700;
+}

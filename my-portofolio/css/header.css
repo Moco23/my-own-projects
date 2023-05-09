@@ -1,0 +1,37 @@
+.mainNav {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.logoBox h4 {
+  font-size: 3.2rem;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+}
+
+.logoBox span {
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+.navigation {
+  display: flex;
+  gap: 3rem;
+}
+
+.navigation a {
+  color: var(--secondary-text-color);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: var(--font-familu-Inconsolata);
+  font-weight: 700;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+.navigation a:hover {
+  color: var(--main-text-color);
+}

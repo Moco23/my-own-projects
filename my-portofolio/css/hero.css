@@ -1,0 +1,40 @@
+.hero {
+  margin-bottom: 2rem;
+  height: 100vh;
+  background: radial-gradient(
+    100% 100% at 50% 100%,
+    #1f1e1b 21.52%,
+    #1b1a17 100%
+  );
+}
+
+.lookingP {
+  color: var(--secondary-text-color);
+  font-family: var(--font-family-Inconsolata);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.1rem;
+}
+
+.nameHeading {
+  padding: 20rem 0 0 0;
+}
+
+.programerProfilPicture p {
+  position: relative;
+  color: rgba(163, 87, 9, 0.5);
+  font-family: var(--font-family-Inconsolata);
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+}
+
+.profImgMn {
+  position: absolute;
+  top: 20rem;
+  right: 50rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 50%;
+  border: 0.5rem solid var(--main-text-color);
+}

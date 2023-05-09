@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+/* heading css */
+.mainHeading {
+  font-size: 7rem;
+  font-style: italic;
+  text-transform: uppercase;
+  background-color: #00eded;
+  background-image: linear-gradient(to right, #00eded, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.secondaryHeading {
+  font-size: 4rem;
+  font-style: italic;
+  background-color: #00eded;
+  background-image: linear-gradient(to right, #00eded, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.heading3 {
+  font-size: 2.4rem;
+  font-style: italic;
+
+  background-color: #00eded;
+  background-image: linear-gradient(to right, #00eded, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* p css */
+.mainP {
+  font-size: 3.2rem;
+  color: rgb(9, 112, 112);
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.secondaryP {
+  font-size: 1rem;
+  color: rgb(9, 112, 112);
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.p3 {
+  font-size: 1.5rem;
+  color: rgb(9, 112, 112);
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.p4 {
+  font-size: 1.8rem;
+  color: rgb(9, 112, 112);
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* colors */
+.gryBgColor {
+  background: #2b2f32;
+  border: none;
+  cursor: pointer;
+}
+
+/* btn cvss */
+.rateBtn {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+
+.submitBtn {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+
+/* sections css */
+/* hero section */
+.hero {
+  /* width: 100%;
+  height: auto; */
+  background-color: #1b1b1b;
+  margin-bottom: 2rem;
+}
+
+.apartmans {
+  margin-bottom: 2rem;
+}
+
+/* about premantura section */
+.aboutpremantura {
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #1b1b1b;
+}
+
+/* form section */
+.form {
+  width: 100%;
+  background-color: #1b1b1b;
+  color: rgb(9, 112, 112);
+  font-size: 2rem;
+}
+
+.findAndRate {
+  color: rgb(9, 112, 112);
+  font-size: 2rem;
+}
+
+.fomrInput {
+  width: 100%;
+  background: #2b2f32;
+  border: none;
+}
+
+/* footer css */
+footer {
+  background: #2b2f32;
+}
+/* sections css */
+
+/* icons css */
+.apartAvelibleItem {
+  font-size: 5rem;
+  color: rgb(9, 112, 112);
+  margin: 2rem;
+}
