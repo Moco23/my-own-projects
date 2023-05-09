@@ -1,0 +1,34 @@
+.chouseMeSection {
+  margin-bottom: 10rem;
+}
+
+.chouseMeSection_icon {
+  font-size: 10rem;
+  opacity: 30%;
+  transition: 0.5s;
+}
+
+.chousMeSection_level {
+  font-size: 2rem;
+  opacity: 30%;
+}
+
+.chouseMeSection_htmlIcon:hover {
+  color: #e34c26;
+}
+
+.chouseMeSection_cssIcon:hover {
+  color: #264de4;
+}
+
+.chouseMeSection_bsIcon:hover {
+  color: #710193;
+}
+
+.chouseMeSection_sassIcon:hover {
+  color: #cd6799;
+}
+
+.chouseMeSection_jsIcon:hover {
+  color: #f0db4f;
+}

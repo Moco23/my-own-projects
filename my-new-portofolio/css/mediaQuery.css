@@ -5,6 +5,12 @@
   }
 }
 
+@media only screen and (max-width: 640px) {
+  .chouseMeSection_icons_respColumn {
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 460px) {
   .testimonialsSection_profile_1 {
     flex-direction: column;
