@@ -5,9 +5,4 @@
 .mediaIcon {
   font-size: 5rem;
   color: rgba(69, 165, 4);
-  transition: 0.5s;
-}
-
-.mediaIcon:hover {
-  font-size: 7rem;
 }
