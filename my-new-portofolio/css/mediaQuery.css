@@ -49,6 +49,10 @@
   .pricingCard {
     height: auto;
   }
+
+  .scrollBtn {
+    bottom: -3rem;
+  }
 }
 
 @media only screen and (max-width: 420px) {
