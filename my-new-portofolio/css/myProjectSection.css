@@ -2,7 +2,21 @@
   margin-bottom: 10rem;
 }
 
+.myProjectsSection_heading {
+  margin-bottom: 6rem;
+}
+
 .mediaIcon {
   font-size: 5rem;
   color: rgba(69, 165, 4);
+}
+
+.slider_img {
+  width: 100%;
+  height: auto;
+  opacity: 40%;
+}
+
+.mediaSpan {
+  margin-top: 5rem;
 }

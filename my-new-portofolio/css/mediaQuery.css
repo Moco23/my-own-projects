@@ -25,6 +25,10 @@
   .contactMe_btn {
     margin-bottom: 5rem;
   }
+
+  .heroSection {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -52,11 +56,15 @@
     height: auto;
   }
 
-  .hero .contactMe_btn {
+  .contactMe_btn {
     margin-bottom: 5rem;
   }
 
   .pricingCard {
     height: auto;
+  }
+
+  .mediaSpan {
+    margin-top: 10rem;
   }
 }
