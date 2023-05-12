@@ -1,8 +1,12 @@
 .technologiSection {
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
 }
 
 .techIcon {
   font-size: 10rem;
   color: rgba(69, 165, 4);
+}
+
+.aboutTech_heading {
+  margin-bottom: 10rem;
 }
