@@ -33,3 +33,22 @@
 .slider_arow__right {
   margin-right: -30rem;
 }
+
+.aboutTheProjects_description {
+  margin-bottom: 5rem;
+}
+
+.visitWebsite_btn {
+  text-decoration: none;
+  color: #333;
+  background: rgba(69, 165, 4);
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.visitWebsite_btn:hover {
+  border: 0.1rem solid rgba(69, 165, 4);
+  background: transparent;
+  color: rgba(69, 165, 4);
+}
