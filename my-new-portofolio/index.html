@@ -57,7 +57,7 @@
           <!-- <div class="rightSide2"> -->
           <div class="col-lg-6 col-12 text-center">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav gap-3">
                 <li class="nav-item">
                   <a
                     class="nav-link mainNav_list"
@@ -65,9 +65,6 @@
                     href="index.html"
                     >Home</a
                   >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mainNav_list" href="a">About me</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link mainNav_list" href="#myProjectSection"
@@ -119,9 +116,37 @@
             <div class="col-lg-6 col-md-12 col-12">
               <h1 class="mainHeading text-center p-5">Momcilo Nikolic</h1>
               <h2
-                class="developerDescrption mainText_color text-center text-md-end p-md-5 p-5"
+                class="developerDescrption mainText_color text-lg-start p-md-5 p-5"
               >
                 My name is
+                <span class="secondaryText_color">Momcilo Nikolic</span>, i am a
+                <span class="secondaryText_color"
+                  >Junior Frontend Developer</span
+                >
+                with a passion for creating beautiful and functional web
+                experiences. With skills in
+                <span class="secondaryText_color text-uppercase">HTML</span>,
+                <span class="secondaryText_color text-uppercase">CSS</span>,
+                <span class="secondaryText_color text-uppercase">Sass</span>,
+                <span class="secondaryText_color text-uppercase"
+                  >Bootstrap</span
+                >
+                and
+                <span class="secondaryText_color text-uppercase">
+                  JavaScript</span
+                >
+                technologies, I specialize in building responsive and
+                user-friendly websites that help businesses achieve their online
+                goals. My portfolio showcases my expertise in designing and
+                developing websites, as well as my ability to work
+                collaboratively with clients to understand their needs and
+                deliver solutions that meet their expectations. From simple
+                one-page sites to complex web applications, I take pride in
+                every project I work on and strive to provide a seamless user
+                experience. Take a look at my portfolio to see examples of my
+                work and get in touch to discuss how I can help bring your
+                website vision to life.
+                <!-- My name is
                 <span class="secondaryText_color">Momcilo Nikolic</span>. I
                 offer a service as a
                 <span class="secondaryText_color">frontend developer</span>, and
@@ -135,7 +160,7 @@
                 <span class="secondaryText_color">SCSS</span>,
                 <span class="secondaryText_color">SASS</span>,
                 <span class="secondaryText_color">BOOTSTRAP</span> and
-                <span class="secondaryText_color">JS</span>
+                <span class="secondaryText_color">JS</span> -->
               </h2>
 
               <div class="contactMe d-flex justify-content-center text-md-end">
@@ -185,7 +210,7 @@
                   </div>
                   <div class="col-lg-6 col-md-12 col-12">
                     <h2 class="secondaryHeading mb-5 text-center">
-                      about project
+                      about the project
                     </h2>
                     <h2
                       class="mainText_color text-lg-start text-md-center text-center"
@@ -212,7 +237,7 @@
                   </div>
                   <div class="col-md-6">
                     <h2 class="secondaryHeading mb-5 text-center">
-                      about project
+                      about the project
                     </h2>
                     <h2
                       class="mainText_color text-lg-start text-md-center text-center"
@@ -239,7 +264,7 @@
                   </div>
                   <div class="col-lg-6 col-md-12 col-12">
                     <h2 class="secondaryHeading mb-5 text-center">
-                      about project
+                      about the project
                     </h2>
                     <h2
                       class="mainText_color text-lg-start text-md-center text-center"
@@ -257,10 +282,10 @@
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                class="carousel-control-prev-icon slider_arow__left"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden slider_arow__left">Previous</span>
             </button>
             <button
               class="carousel-control-next"
@@ -269,10 +294,10 @@
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                class="carousel-control-next-icon slider_arow__right"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span class="visually-hidden slider_arow__right">Next</span>
             </button>
           </div>
           <!-- slider -->
@@ -463,7 +488,7 @@
           <div class="row justify-content-between pricingCards_row">
             <!-- card 1 -->
             <div class="col-lg-4 col-md-12 col-12">
-              <div class="pricingCard mainBg_color p-5">
+              <div class="pricingCard mainBg_color">
                 <h2
                   id="baisic"
                   class="secondaryHeading text-center mb-5 text-uppercase"
@@ -482,21 +507,25 @@
                   </li>
                 </ul>
 
-                <button
-                  class="pricingOrder_btn mainBg_color d-flex justify-content-center align-items-center baisic"
+                <div
+                  class="pricingCardf_orderButton d-flex justify-content-center align-items-center"
                 >
-                  <a
-                    href="#"
-                    class="mainText_color text-uppercase text-decoration-none"
-                    >Order Now for 50&euro;</a
+                  <button
+                    class="pricingOrder_btn mainBg_color d-flex justify-content-center align-items-center baisic"
                   >
-                </button>
+                    <a
+                      href="#"
+                      class="mainText_color text-uppercase text-decoration-none"
+                      >Order Now for 50&euro;</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
 
             <!-- card 2 -->
             <div class="col-lg-4 col-md-12 col-12">
-              <div class="pricingCard mainBg_color p-5">
+              <div class="pricingCard mainBg_color">
                 <h2
                   id="meidum"
                   class="secondaryHeading text-center mb-5 text-uppercase"
@@ -525,21 +554,25 @@
                   </li>
                 </ul>
 
-                <button
-                  class="pricingOrder_btn mainBg_color d-flex justify-content-center align-items-center medium"
+                <div
+                  class="pricingCardf_orderButton d-flex justify-content-center align-items-center"
                 >
-                  <a
-                    href="#"
-                    class="mainText_color text-uppercase text-decoration-none"
-                    >Order Now for 150&euro;</a
+                  <button
+                    class="pricingOrder_btn mainBg_color d-flex justify-content-center align-items-center medium"
                   >
-                </button>
+                    <a
+                      href="#"
+                      class="mainText_color text-uppercase text-decoration-none"
+                      >Order Now for 150&euro;</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
 
             <!-- card 3 -->
             <div class="col-lg-4 col-md-12 col-12">
-              <div class="pricingCard mainBg_color p-5">
+              <div class="pricingCard mainBg_color">
                 <h2
                   id="premium"
                   class="secondaryHeading text-center mb-5 text-uppercase"
@@ -577,22 +610,25 @@
                   </li>
                 </ul>
 
-                <button
-                  class="pricingOrder_btn mainBg_color d-flex justify-content-center align-items-center premium"
+                <div
+                  class="pricingCardf_orderButton d-flex justify-content-center align-items-center"
                 >
-                  <a
-                    href="#"
-                    class="mainText_color text-uppercase text-decoration-none"
-                    >Order Now for 250&euro;</a
+                  <button
+                    class="pricingOrder_btn mainBg_color d-flex justify-content-center align-items-center premium"
                   >
-                </button>
+                    <a
+                      href="#"
+                      class="mainText_color text-uppercase text-decoration-none"
+                      >Order Now for 250&euro;</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- pricing section -->
-
       <div class="scrollButton">
         <a href="#mainNavigaito">
           <i class="fa-solid fa-chevron-up scrollBtn"></i>

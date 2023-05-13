@@ -8,7 +8,9 @@
 }
 
 .pricingCard {
+  position: relative;
   height: 35rem;
+  padding: 2rem 2rem;
 }
 
 .pricingIcon {
@@ -17,6 +19,8 @@
 }
 
 .pricingOrder_btn {
+  position: absolute;
+  bottom: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: 2rem;
   border: none;

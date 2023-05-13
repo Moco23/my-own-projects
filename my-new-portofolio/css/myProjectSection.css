@@ -17,6 +17,19 @@
   opacity: 50%;
 }
 
+.bossImg {
+  height: 20rem;
+  width: auto;
+}
+
 .socialmeida {
   margin-top: 10rem;
+}
+
+.slider_arow__left {
+  margin-left: -40rem;
+}
+
+.slider_arow__right {
+  margin-right: -30rem;
 }

@@ -1,0 +1,9 @@
+.mainContent {
+  position: relative;
+}
+
+.scrollButton {
+  position: absolute;
+  bottom: -17rem;
+  right: 5rem;
+}

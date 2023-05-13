@@ -1,6 +1,24 @@
+@media only screen and (max-width: 1600px) {
+  .slider_arow__right {
+    margin-right: -30rem;
+  }
+
+  .slider_arow__left {
+    margin-left: -30rem;
+  }
+}
+
 @media only screen and (max-width: 1225px) {
   .pricingCard {
     height: 50rem;
+  }
+
+  .slider_arow__right {
+    margin-right: -20rem;
+  }
+
+  .slider_arow__left {
+    margin-left: -20rem;
   }
 }
 
@@ -13,6 +31,18 @@
 
   .pricingCard {
     height: auto;
+  }
+
+  .slider_arow__right {
+    margin-right: -15;
+  }
+
+  .slider_arow__left {
+    margin-left: -15;
+  }
+
+  .pricingCard {
+    padding: 5rem 1rem;
   }
 }
 
@@ -29,6 +59,18 @@
   .heroSection {
     height: auto;
   }
+
+  .slider_arow__right {
+    margin-right: -15;
+  }
+
+  .slider_arow__left {
+    margin-left: -15;
+  }
+
+  .pricingCard {
+    padding: 5rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -43,6 +85,32 @@
   .contactMe_btn {
     margin-bottom: 5rem;
   }
+
+  .slider_arow__right {
+    margin-right: -15rem;
+  }
+
+  .slider_arow__left {
+    margin-left: -15rem;
+  }
+
+  .pricingCard {
+    padding: 5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .slider_arow__right {
+    margin-right: -10rem;
+  }
+
+  .slider_arow__left {
+    margin-left: -10rem;
+  }
+
+  .pricingCard {
+    padding: 5rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 460px) {
@@ -50,8 +118,20 @@
     height: auto;
   }
 
+  .pricingCard {
+    padding: 5rem 1rem;
+  }
+
   .scrollBtn {
     bottom: -3rem;
+  }
+
+  .slider_arow__right {
+    margin-right: 0;
+  }
+
+  .slider_arow__left {
+    margin-left: 0;
   }
 }
 
@@ -70,5 +150,17 @@
 
   .mediaSpan {
     margin-top: 10rem;
+  }
+
+  .slider_arow__right {
+    margin-right: 0;
+  }
+
+  .slider_arow__left {
+    margin-left: 0;
+  }
+
+  .pricingCard {
+    padding: 5rem 1rem;
   }
 }

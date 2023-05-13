@@ -3,14 +3,7 @@
   font-size: 1.7rem;
 }
 
-.mainContent {
-  position: relative;
-}
-
 .scrollBtn {
-  position: absolute;
-  bottom: 0;
-  right: 5rem;
   color: rgb(69, 165, 4);
   font-size: 3rem;
   cursor: pointer;
